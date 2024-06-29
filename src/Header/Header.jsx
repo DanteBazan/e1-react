@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Header.css"
 
-function Header({ linkHeader, link1, link2, link3, link4 }) {
+function Header({ linkHeader, link1, link2, link3, }) {
     return (
         <header className='header'>
             <img className='logo-header' src={linkHeader} alt='logo-header' />
@@ -10,7 +10,6 @@ function Header({ linkHeader, link1, link2, link3, link4 }) {
                     <li><a href="#" className='navbar-links'>{link1}</a></li>
                     <li><a href="#" className='navbar-links'>{link2}</a></li>
                     <li><a href="#" className='navbar-links'>{link3}</a></li>
-                    <li><a href="#" className='navbar-links'>{link4}</a></li>
                 </ul>
             </nav>
         </header>
