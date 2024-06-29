@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 1rem;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-description-text {
+    width: 600px;
+    text-align: center;
+    color: rgb(218, 211, 211);
+}

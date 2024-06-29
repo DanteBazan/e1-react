@@ -1,0 +1,13 @@
+.footer {
+    padding: 1.5rem;
+    background: #4b2a5d;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2rem;
+    font-weight: 600;
+}

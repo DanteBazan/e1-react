@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: #4b2a5d;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+
+.logo-header {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-links {
+    text-decoration: none;
+    color: #fff;
+    transition: .1s border-bottom, padding-bottom;
+}
+
+.navbar-links:hover {
+    padding-bottom: .1rem;
+    border-bottom: 2px solid #fff;
+}
+
+/* MEDIAQUERIES DEL COMPONENTE HEADER */
+
+@media screen and (max-width:460px) {
+    .navbar {
+        display: none;
+    }
+}

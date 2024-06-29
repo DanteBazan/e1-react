@@ -1,0 +1,43 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background: #4b2a5d;
+    position: relative;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+.card-img {
+    width: 230px;
+    height: 350px;
+}
+
+.card-img:hover {
+    opacity: .7;
+}
+
+.card-container-description {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.card-button {
+    border: 0;
+    background: #62367a;
+    padding: .4rem .4rem;
+    color: #fff;
+    transition: background, outline .3s;
+}
+
+.card-button:hover {
+    background: rgb(81, 27, 87);
+    outline: 3px solid #62367a;
+}
+
+.card-price {
+    position: absolute;
+    top: 335px;
+}
